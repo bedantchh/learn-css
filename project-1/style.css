@@ -20,7 +20,7 @@ a{
 }
 
 #nav{
-    height: 100px;
+    height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -46,7 +46,7 @@ a{
 
 #center{
     width: 100%;
-    padding: 40px 80px;
+    padding: 2px 80px 0px 80px;
 }
 
 #center h1{
@@ -61,10 +61,53 @@ a{
     height: 200px;
     display: flex;
     justify-content: space-between;
-    background-color: #6c3fc0;
+    /* background-color: #6c3fc0; */
 }
 
 #center-in p {
     font-size: 20px;
     line-height: 30px;
+}
+
+.elem{
+    padding: 20px 0;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#right{
+    width: 20%;
+}
+
+.elem a{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.elem i{
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+
+.elem:hover a{
+    text-decoration: underline;
+}
+
+.elem:hover{
+    background-color: #d4d4d4;
+}
+
+#bottom{
+    height: 40%;
+    width: 100%;
+    background-image: url(images/image.png);
+    background-size: cover;
+    background-position: 0 35%;
 }
