@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: work sans;
+    font-family: 'work sans';
 }
 html,body{
     height: 100%;
@@ -13,8 +13,9 @@ html,body{
     width: 100%;
     display: flex;
     align-items: flex-end;
+    gap: 70px;
     /* justify-content: space-between; */
-    padding: 150px 90px 0 90px;
+    padding: 80px 90px 0 90px;
 }
 
 #left{
@@ -34,13 +35,13 @@ html,body{
 }
 
 #left h1{
-    font-size: 120px;
+    font-size: 80px;
     font-weight: 400;
 }
 
 #color{
     width: fit-content;
-    padding: 10px 20px;
+    padding: 6px 16px;
     display: flex;
     align-items: center;
     border: 1px solid #000;
@@ -49,42 +50,97 @@ html,body{
 }
 
 #color h5{
-    font-size: 20px;
+    font-size: 14px;
     margin-right: 10px;
     font-weight: 500;
 }
 
 #color1{
-    height: 20px;
-    width: 20px;
+    height: 14px;
+    width: 14px;
     background-color: burlywood;
     border-radius: 50%;
     margin: 3px;
 }
 
 #color2{
-    height: 20px;
-    width: 20px;
+    height: 14px;
+    width: 14px;
     background-color: red;
     border-radius: 50%;
 }
 
 #left h2{
-    margin-top: 50px;
-    font-size: 30px;
+    margin-top: 40px;
+    font-size: 24px;
     margin-bottom: 15px;
 }
 
 #left p{
-    font-size: 20px;
+    font-size: 12px;
     width: 60%;
     font-weight: 600;
     color: #333;
-    line-height: 30px;
+    line-height: 18px;
 }
 
 #right{
     height: 90%;
-    width: 38%;
-    background-color: #d47dd4;
+    width: 32%;
+    /* background-color: #d47dd4; */
+    position: relative;
+}
+#right-top{
+    height: 50px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#right-top h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#right-top h5{
+    font-size: 12px;
+}
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    width:100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: top;
+}
+#circle{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #9d7a63;
+    right: -19%;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle h2{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+#vertical h2{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -41%;
+    top: 62%;
+    font-weight: 600;
 }
